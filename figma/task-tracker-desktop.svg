@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#F899C1" flood-opacity="0.25"/>
+  </filter>
+</defs>
+<g id="Desktop - Task Tracker">
+<rect x="0" y="0" width="1200" height="1000" rx="0" fill="#FFFDE8" /><circle cx="144.0" cy="60.0" r="180" fill="#FDF6CA"/><circle cx="1104.0" cy="120.0" r="140" fill="#F7BBD5" opacity="0.35"/>
+<text x="170" y="72" font-family="Nunito" font-size="13" font-weight="700" fill="#8A5A72" text-anchor="start" letter-spacing="1.2">KAMIS, 19 NOVEMBER 2026</text>
+<text x="170" y="118" font-family="Fredoka" font-size="40" font-weight="600" fill="#5A2A41" text-anchor="start" >Task Tracker</text>
+<text x="170" y="146" font-family="Nunito" font-size="15" font-weight="400" fill="#8A5A72" text-anchor="start" >Daftar tugas &amp; deadline kuliah, biar nggak ada yang kelewat ✿</text>
+<g id="Button - Tambah Tugas"><rect x="850" y="94" width="180" height="46" rx="23" fill="#F899C1" /><text x="940" y="123" font-family="Nunito" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" >+ Tambah Tugas</text></g>
+<g id="Stats">
+<rect x="170.0" y="176" width="206.0" height="84" rx="18" fill="#FDF6CA" />
+<text x="186.0" y="220" font-family="Fredoka" font-size="30" font-weight="600" fill="#5A2A41" text-anchor="start" >5</text>
+<text x="186.0" y="242" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="start" >Total</text>
+<rect x="388.0" y="176" width="206.0" height="84" rx="18" fill="#F9E3AA" />
+<text x="404.0" y="220" font-family="Fredoka" font-size="30" font-weight="600" fill="#5A2A41" text-anchor="start" >4</text>
+<text x="404.0" y="242" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="start" >Belum selesai</text>
+<rect x="606.0" y="176" width="206.0" height="84" rx="18" fill="#F7BBD5" />
+<text x="622.0" y="220" font-family="Fredoka" font-size="30" font-weight="600" fill="#5A2A41" text-anchor="start" >2</text>
+<text x="622.0" y="242" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="start" >Deadline ≤ 3 hari</text>
+<rect x="824.0" y="176" width="206.0" height="84" rx="18" fill="#F899C1" />
+<text x="840.0" y="220" font-family="Fredoka" font-size="30" font-weight="600" fill="#FFFFFF" text-anchor="start" >1</text>
+<text x="840.0" y="242" font-family="Nunito" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="start" >Selesai</text>
+</g>
+<g id="Filter Tabs">
+<rect x="170" y="288" width="270" height="44" rx="22" fill="#FDF6CA" />
+<rect x="174" y="292" width="90" height="36" rx="18" fill="#F899C1" />
+<text x="219" y="316" font-family="Nunito" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Semua</text>
+<text x="309" y="316" font-family="Nunito" font-size="14" font-weight="700" fill="#8A5A72" text-anchor="middle" >Belum</text>
+<text x="393" y="316" font-family="Nunito" font-size="14" font-weight="700" fill="#8A5A72" text-anchor="middle" >Selesai</text>
+</g>
+<g id="Search"><rect x="750" y="288" width="280" height="44" rx="14" fill="#FFFFFF" stroke="#F9E3AA" stroke-width="2" /><text x="766" y="316" font-family="Nunito" font-size="14" font-weight="400" fill="#8A5A72" text-anchor="start" >Cari judul atau mata kuliah…</text></g>
+<g id="Task List">
+<g id="Task Card - Laporan Praktikum Basis Data" opacity="1">
+<rect x="170" y="352" width="860" height="112" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M188 352H178A18 18 0 0 0 170 370V446A18 18 0 0 0 178 464H188Z" fill="#F899C1" opacity="0"/>
+<rect x="172" y="368" width="6" height="80" rx="3" fill="#F899C1" />
+<rect x="198" y="374" width="24" height="24" rx="8" fill="#FFFFFF" stroke="#F899C1" stroke-width="2" />
+<text x="238" y="390" font-family="Nunito" font-size="17" font-weight="700" fill="#5A2A41" text-anchor="start" >Laporan Praktikum Basis Data</text>
+<text x="238" y="410" font-family="Nunito" font-size="13" font-weight="600" fill="#8A5A72" text-anchor="start" >Basis Data</text>
+<rect x="238" y="424" width="142" height="26" rx="13.0" fill="#FDF6CA" /><text x="309.0" y="441.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >📅 Kam, 19 Nov 2026</text>
+<rect x="388" y="424" width="96" height="26" rx="13.0" fill="#D6456F" /><text x="436.0" y="441.0" font-family="Nunito" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Hari ini!</text>
+<rect x="492" y="424" width="118" height="26" rx="13.0" fill="#F899C1" /><text x="551.0" y="441.0" font-family="Nunito" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Prioritas tinggi</text>
+<rect x="938" y="372" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="956" y="396" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >✎</text>
+<rect x="980" y="372" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="998" y="396" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >🗑</text>
+</g>
+<g id="Task Card - Presentasi Proyek Akhir PBO" opacity="1">
+<rect x="170" y="476" width="860" height="112" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M188 476H178A18 18 0 0 0 170 494V570A18 18 0 0 0 178 588H188Z" fill="#F899C1" opacity="0"/>
+<rect x="172" y="492" width="6" height="80" rx="3" fill="#F899C1" />
+<rect x="198" y="498" width="24" height="24" rx="8" fill="#FFFFFF" stroke="#F899C1" stroke-width="2" />
+<text x="238" y="514" font-family="Nunito" font-size="17" font-weight="700" fill="#5A2A41" text-anchor="start" >Presentasi Proyek Akhir PBO</text>
+<text x="238" y="534" font-family="Nunito" font-size="13" font-weight="600" fill="#8A5A72" text-anchor="start" >Pemrograman Berorientasi Objek</text>
+<rect x="238" y="548" width="142" height="26" rx="13.0" fill="#FDF6CA" /><text x="309.0" y="565.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >📅 Sab, 21 Nov 2026</text>
+<rect x="388" y="548" width="96" height="26" rx="13.0" fill="#F7BBD5" /><text x="436.0" y="565.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >2 hari lagi</text>
+<rect x="492" y="548" width="118" height="26" rx="13.0" fill="#F899C1" /><text x="551.0" y="565.0" font-family="Nunito" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Prioritas tinggi</text>
+<rect x="938" y="496" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="956" y="520" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >✎</text>
+<rect x="980" y="496" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="998" y="520" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >🗑</text>
+</g>
+<g id="Task Card - Resume Jurnal Keamanan Siber" opacity="1">
+<rect x="170" y="600" width="860" height="112" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M188 600H178A18 18 0 0 0 170 618V694A18 18 0 0 0 178 712H188Z" fill="#F9E3AA" opacity="0"/>
+<rect x="172" y="616" width="6" height="80" rx="3" fill="#F9E3AA" />
+<rect x="198" y="622" width="24" height="24" rx="8" fill="#FFFFFF" stroke="#F899C1" stroke-width="2" />
+<text x="238" y="638" font-family="Nunito" font-size="17" font-weight="700" fill="#5A2A41" text-anchor="start" >Resume Jurnal Keamanan Siber</text>
+<text x="238" y="658" font-family="Nunito" font-size="13" font-weight="600" fill="#8A5A72" text-anchor="start" >Keamanan Siber</text>
+<rect x="238" y="672" width="142" height="26" rx="13.0" fill="#FDF6CA" /><text x="309.0" y="689.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >📅 Sen, 23 Nov 2026</text>
+<rect x="388" y="672" width="96" height="26" rx="13.0" fill="#FDF6CA" /><text x="436.0" y="689.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >4 hari lagi</text>
+<rect x="492" y="672" width="118" height="26" rx="13.0" fill="#FDF6CA" /><text x="551.0" y="689.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >Prioritas sedang</text>
+<rect x="938" y="620" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="956" y="644" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >✎</text>
+<rect x="980" y="620" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="998" y="644" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >🗑</text>
+</g>
+<g id="Task Card - Kuis Statistika Bab 5" opacity="1">
+<rect x="170" y="724" width="860" height="112" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M188 724H178A18 18 0 0 0 170 742V818A18 18 0 0 0 178 836H188Z" fill="#FDF6CA" opacity="0"/>
+<rect x="172" y="740" width="6" height="80" rx="3" fill="#FDF6CA" />
+<rect x="198" y="746" width="24" height="24" rx="8" fill="#FFFFFF" stroke="#F899C1" stroke-width="2" />
+<text x="238" y="762" font-family="Nunito" font-size="17" font-weight="700" fill="#5A2A41" text-anchor="start" >Kuis Statistika Bab 5</text>
+<text x="238" y="782" font-family="Nunito" font-size="13" font-weight="600" fill="#8A5A72" text-anchor="start" >Statistika</text>
+<rect x="238" y="796" width="142" height="26" rx="13.0" fill="#FDF6CA" /><text x="309.0" y="813.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >📅 Jum, 27 Nov 2026</text>
+<rect x="388" y="796" width="96" height="26" rx="13.0" fill="#FDF6CA" /><text x="436.0" y="813.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >8 hari lagi</text>
+<rect x="492" y="796" width="118" height="26" rx="13.0" fill="#FDF6CA" /><text x="551.0" y="813.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >Prioritas rendah</text>
+<rect x="938" y="744" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="956" y="768" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >✎</text>
+<rect x="980" y="744" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="998" y="768" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >🗑</text>
+</g>
+<g id="Task Card - Tugas Jaringan Komputer" opacity="0.6">
+<rect x="170" y="848" width="860" height="112" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M188 848H178A18 18 0 0 0 170 866V942A18 18 0 0 0 178 960H188Z" fill="#F9E3AA" opacity="0"/>
+<rect x="172" y="864" width="6" height="80" rx="3" fill="#F9E3AA" />
+<rect x="198" y="870" width="24" height="24" rx="8" fill="#F899C1" stroke="#F899C1" stroke-width="2" />
+<text x="210" y="888" font-family="Nunito" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle" >✓</text>
+<text x="238" y="886" font-family="Nunito" font-size="17" font-weight="700" fill="#5A2A41" text-anchor="start" text-decoration="line-through">Tugas Jaringan Komputer</text>
+<text x="238" y="906" font-family="Nunito" font-size="13" font-weight="600" fill="#8A5A72" text-anchor="start" >Jaringan Komputer</text>
+<rect x="238" y="920" width="142" height="26" rx="13.0" fill="#FDF6CA" /><text x="309.0" y="937.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >📅 Rab, 18 Nov 2026</text>
+<rect x="388" y="920" width="96" height="26" rx="13.0" fill="#FDF6CA" /><text x="436.0" y="937.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >Selesai</text>
+<rect x="492" y="920" width="118" height="26" rx="13.0" fill="#FDF6CA" /><text x="551.0" y="937.0" font-family="Nunito" font-size="12" font-weight="700" fill="#5A2A41" text-anchor="middle" >Prioritas sedang</text>
+<rect x="938" y="868" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="956" y="892" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >✎</text>
+<rect x="980" y="868" width="36" height="36" rx="12" fill="#FDF6CA" /><text x="998" y="892" font-family="Nunito" font-size="15" font-weight="400" fill="#5A2A41" text-anchor="middle" >🗑</text>
+</g>
+</g></g></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+<g id="Color Palette">
+<rect x="0" y="0" width="640" height="220" rx="0" fill="#FFFFFF" />
+<rect x="20" y="20" width="108" height="108" rx="18" fill="#FFFDE8" stroke="#EADCCB" stroke-width="2" />
+<text x="20" y="152" font-family="Nunito" font-size="13" font-weight="700" fill="#5A2A41" text-anchor="start" >Cream</text>
+<text x="20" y="172" font-family="Nunito" font-size="12" font-weight="400" fill="#8A5A72" text-anchor="start" >#FFFDE8</text>
+<rect x="140" y="20" width="108" height="108" rx="18" fill="#FDF6CA" stroke="#EADCCB" stroke-width="2" />
+<text x="140" y="152" font-family="Nunito" font-size="13" font-weight="700" fill="#5A2A41" text-anchor="start" >Butter 100</text>
+<text x="140" y="172" font-family="Nunito" font-size="12" font-weight="400" fill="#8A5A72" text-anchor="start" >#FDF6CA</text>
+<rect x="260" y="20" width="108" height="108" rx="18" fill="#F9E3AA" stroke="#EADCCB" stroke-width="2" />
+<text x="260" y="152" font-family="Nunito" font-size="13" font-weight="700" fill="#5A2A41" text-anchor="start" >Butter 300</text>
+<text x="260" y="172" font-family="Nunito" font-size="12" font-weight="400" fill="#8A5A72" text-anchor="start" >#F9E3AA</text>
+<rect x="380" y="20" width="108" height="108" rx="18" fill="#F7BBD5" stroke="#EADCCB" stroke-width="2" />
+<text x="380" y="152" font-family="Nunito" font-size="13" font-weight="700" fill="#5A2A41" text-anchor="start" >Pink 300</text>
+<text x="380" y="172" font-family="Nunito" font-size="12" font-weight="400" fill="#8A5A72" text-anchor="start" >#F7BBD5</text>
+<rect x="500" y="20" width="108" height="108" rx="18" fill="#F899C1" stroke="#EADCCB" stroke-width="2" />
+<text x="500" y="152" font-family="Nunito" font-size="13" font-weight="700" fill="#5A2A41" text-anchor="start" >Pink 500</text>
+<text x="500" y="172" font-family="Nunito" font-size="12" font-weight="400" fill="#8A5A72" text-anchor="start" >#F899C1</text>
+<text x="20" y="205" font-family="Nunito" font-size="12" font-weight="600" fill="#8A5A72" text-anchor="start" >Teks: Berry #5A2A41   ·   Soft #8A5A72   ·   Alert #D6456F</text>
+</g></svg>

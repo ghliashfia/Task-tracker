@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task Tracker · Daftar Tugas & Deadline Kuliah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow" id="today"></p>
+        <h1>Task Tracker</h1>
+        <p class="subtitle">Daftar tugas &amp; deadline kuliah, biar nggak ada yang kelewat ✿</p>
+      </div>
+      <button class="btn btn-primary" id="btn-add">+ Tambah Tugas</button>
+    </header>
+
+    <section class="stats" aria-label="Ringkasan">
+      <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">Total</span></div>
+      <div class="stat"><span class="stat-num" id="stat-pending">0</span><span class="stat-label">Belum selesai</span></div>
+      <div class="stat"><span class="stat-num" id="stat-soon">0</span><span class="stat-label">Deadline ≤ 3 hari</span></div>
+      <div class="stat"><span class="stat-num" id="stat-done">0</span><span class="stat-label">Selesai</span></div>
+    </section>
+
+    <section class="toolbar">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-status="">Semua</button>
+        <button class="tab" data-status="belum">Belum</button>
+        <button class="tab" data-status="selesai">Selesai</button>
+      </div>
+      <input type="search" id="search" placeholder="Cari judul atau mata kuliah…" />
+    </section>
+
+    <main>
+      <ul class="task-list" id="task-list"></ul>
+      <div class="empty" id="empty" hidden>
+        <div class="empty-emoji">🌸</div>
+        <p>Belum ada tugas. Klik <strong>+ Tambah Tugas</strong> untuk mulai.</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal form tambah / edit -->
+  <dialog id="dialog">
+    <form id="form" method="dialog">
+      <h2 id="dialog-title">Tambah Tugas</h2>
+      <input type="hidden" id="f-id" />
+
+      <label>Judul tugas
+        <input type="text" id="f-title" required maxlength="120" placeholder="mis. Laporan Praktikum Basis Data" />
+      </label>
+      <label>Mata kuliah
+        <input type="text" id="f-course" maxlength="80" placeholder="mis. Basis Data" />
+      </label>
+      <div class="row">
+        <label>Deadline
+          <input type="date" id="f-deadline" required />
+        </label>
+        <label>Prioritas
+          <select id="f-priority">
+            <option value="rendah">Rendah</option>
+            <option value="sedang" selected>Sedang</option>
+            <option value="tinggi">Tinggi</option>
+          </select>
+        </label>
+      </div>
+      <label>Catatan
+        <textarea id="f-description" rows="3" placeholder="Opsional"></textarea>
+      </label>
+
+      <p class="form-error" id="form-error" hidden></p>
+      <div class="actions">
+        <button type="button" class="btn btn-ghost" id="btn-cancel">Batal</button>
+        <button type="submit" class="btn btn-primary">Simpan</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
